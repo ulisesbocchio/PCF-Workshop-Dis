@@ -1,23 +1,19 @@
-= Pivotal Cloud Foundry 101 Workshop - TMO
+= Pivotal Cloud Foundry 101 Workshop - Dis
 
 == Schedule
 
 This one day hands-on classroom style session will provide developers (and operators) with hands on experience with Pivotal Cloud Foundry concepts, architecture and fundamentals of pushing code and building applications. The session includes presentations, demos and hands on labs
 
-8:00 AM - 8:30 AM::
+9:00 AM - 9:30 AM::
  * Registration & Breakfast
-8:30 AM - 9:00 AM::
- * Keynote (TBD)
-9:00 AM - 10:00 AM::
- * Session 1: _Introduction_
-10:00 AM - 10:15 AM:: Break
-10:15 AM - 11:15 AM::
- * Session 2: _PCF Architecture & Operations_
-11:15 AM - 12:15 PM::
- * Session 3: _Continuous Delivery & Microservices (CN Enterprise)_
-12:15 PM - 12:45 PM:: Lunch
+9:30 AM - 10:15 AM::
+ * Session 1: _Introduction to Pivotal Cloud Foundry_
+10:15 AM - 10:30 AM:: Break
+10:30 AM - 12:00 PM::
+ * Session 2: _Cloud Foundry Architecture & Operations_
+12:00 PM - 12:45 PM:: Lunch
 12:45 PM - 1:30 PM::
- * Session 4: _Leveraging the Pivotal Cloud Foundry Marketplace_
+ * Session 3: _Cloud Native Enterprise_
 1:30 PM - 4:00 PM::
  * Developer Workshop: _Pushing Code w/PCF_
 4:00 PM - 4:30 PM:: Wrap Up, Q/A, Feedback
@@ -27,7 +23,6 @@ This one day hands-on classroom style session will provide developers (and opera
 * Session 1: link:presentations/Session_1_Introduction.pptx[Introduction]
 * Session 2: link:presentations/Session_2_Architecture_And_Operations.pptx[Pivotal Cloud Foundry Architecture and Operations]
 * Session 3: link:presentations/Session_3_Cloud_Native_Enterprise.pptx[The Cloud Native Enterprise]
-* Session 4: link:presentations/Session_4_Services_Overview.pptx[Pivotal Cloud Foundry Services]
 
 * Developer Workshop
 ** Pre-work
