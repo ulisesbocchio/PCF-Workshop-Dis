@@ -20,18 +20,18 @@
 ----
 $ cf login -a api.system.pivotalpoc.hosts.disney.pvt -sso --skip-ssl-validation
 ----
-
++
 . You will be promoted for a one time passcode from a URL; navigate to it in your browser
 +
 ----
 $ One Time Code ( Get one at https://login.system.pivotalpoc.hosts.disney.pvt/passcode )>
 ----
-
++
 . Enter the code at the prompt (example)
 ----
 $ One Time Code ( Get one at https://login.system.pivotalpoc.hosts.disney.pvt/passcode )> fhgytns
 ----
-
++
 . Verify target of your environment
 +
 ----
