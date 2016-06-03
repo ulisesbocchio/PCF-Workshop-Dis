@@ -1,6 +1,6 @@
 = PCF Environment Access
 
-== Account set up and Pre-work
+== Request Access for MyID Users
 
 . If you do not have an account yet, please log into Apps Manager with MyID
 
@@ -9,6 +9,10 @@
 . Click the MyID link and log-in using SSO.  The interface will show you do not have ORG permission. Take a screenshot.
 
 . Send an email to the instructor requesting access to a developer space with a screenshot of the Apps Manager interface, be sure to include your BU (ABC, Parks, Studios, etc)
++
+----
+mailto:bbertka@pivotal.io
+----
 
 
 == Target the Environment
