@@ -28,6 +28,7 @@ $ One Time Code ( Get one at https://login.system.pivotalpoc.hosts.disney.pvt/pa
 ----
 +
 . Enter the code at the prompt (example)
++
 ----
 $ One Time Code ( Get one at https://login.system.pivotalpoc.hosts.disney.pvt/passcode )> fhgytns
 ----
