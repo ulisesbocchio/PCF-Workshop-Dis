@@ -18,20 +18,20 @@
 . Set the API target for the CLI: (set appropriate end point for your environment)
 +
 ----
-$ cf api api.system.pivotalpoc.hosts.disney.pvt -sso --skip-ssl-validation
+$ cf login -a api.system.pivotalpoc.hosts.disney.pvt -sso --skip-ssl-validation
 ----
 
-. You will be promoted for a one time passcode from a URL; enter it at the prompt
+. You will be promoted for a one time passcode from a URL; navigate to it in your browser
 
-. Login to Pivotal Cloudfoundry:
+. Enter the code at the prompt
+
+. Verify target of your environment
 +
 ----
-$ cf login
+$ cf target
 ----
-+
-Follow the prompts
 
-== Apps Manager UI
+== Installing CLI via Apps Manager UI
 
 . An alternative to installing the CF CLI is via your PCF Apps Manager interface.
 
