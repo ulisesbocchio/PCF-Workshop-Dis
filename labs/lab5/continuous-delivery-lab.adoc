@@ -12,7 +12,7 @@ This lab will guide you through building a *BASIC* continuous delivery pipeline 
   
 . Edit the manifest.yml at the root of the forked spring-music repository. Change the *host* from ${random-word} to your initials. Jenkins does not like the special characters in the host field and will give an error.
   
-. Login to your Jenkins instance at https://jenkins-0.system.pivotalpoc.hosts.disney.pvt with the same username and password that you use for CloudFoundry.
+. Login to your Jenkins instance at https://jenkins-0.system.pivotalpoc.hosts.disney.pvt with MyID link
 
 
 == Create the Build Job
@@ -51,16 +51,28 @@ echo DEPLOYED_VERSION_CMD
 export ROUTE_VERSION="default"
 echo "Deployed Version: $DEPLOYED_VERSION"
 echo "Route Version: $ROUTE_VERSION"
-export API=https://api.system.pivotalpoc.hosts.disney.pvt
 
-wget -O cf.tgz https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.13.0&source=github-rel
-sleep 5
-tar -zxvf ./cf.tgz
+# Save your api target in variable API
+export API=https://api.system.pivotalpoc.hosts.disney.pvt 
 
-./cf api --skip-ssl-validation $API
-./cf login -u <user> -p <password> -o <org> -s <space>
+# Set current target api to API
+cf api --skip-ssl-validation $API
 
-./cf push -f manifest.yml 
+# Use the jenkins_sercice credentials here to login to your org and space
+cf login -u jenkins_service -p cl0udc0w -o YourOrg -s YourSpace
+
+# Create an instance of the mysql service
+cf create-service p-mysql 100mb spring-music-db
+
+# Create/Update the spring-music app using the versioned manifest.yml, but dont start
+cf push spring-music -n spring-music-dtss -f manifest.yml --no-start
+
+# Bind the application to the service instance
+cf bind-service spring-music spring-music-db
+
+# Start the application
+cf start spring-music
+
 ----
 
 
