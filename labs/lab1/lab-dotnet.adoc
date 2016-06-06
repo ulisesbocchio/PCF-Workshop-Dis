@@ -25,3 +25,6 @@ $ cd $BOOTCAMP_HOME/dotnet-cf-sample-app
 ----
 $ cf push
 ----
+
+== On too the next Lab!
+link:labs/lab2/README.adoc[Lab2 - Binding to Cloud Foundry Services]
