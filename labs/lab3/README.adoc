@@ -166,4 +166,4 @@ Reference: https://docs.pivotal.io/pivotalcf/customizing/diego-ssh/access-apps.h
 
 
 == On to the next Lab!
-link:labs/lab4/README.adoc[Lab4 - Monitoring your Application]
+link:../../labs/lab4/README.adoc[Lab4 - Monitoring your Application]
