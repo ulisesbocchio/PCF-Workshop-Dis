@@ -107,3 +107,9 @@ $ cf services
 ----
 +
 You should now see the service created in step 1 listed and your application listed as a bound app.
+
+Congratulations! You have just bound your first Cloud Foundry Service!
+
+== On too the next Lab!
+link:labs/lab3/README.adoc[Lab3 - Operating your Application]
+

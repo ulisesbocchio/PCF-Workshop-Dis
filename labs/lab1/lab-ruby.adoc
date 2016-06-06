@@ -1,4 +1,4 @@
-= Lab 1 - From Zero to Pushing Your First Application
+= Lab 1 - Pushing a Ruby Application
 
 == Target
 
@@ -20,10 +20,10 @@ Follow the prompts
 
 == Push It!
 
-. Change to the _pcf-autoscale_ sample application directory:
+. Change to the _ruby-cf-sample_app_ application directory:
 +
 ----
-$ cd $BOOTCAMP_HOME/pcf-autoscale
+$ cd $BOOTCAMP_HOME/ruby-cf-sample-app
 ----
 
 . Push the application!
@@ -152,3 +152,6 @@ $ cf stop <<app_name>>
 ----
 $ cf delete <<app_name>>
 ----
+
+== On too the next Lab!
+link:labs/lab2/README.adoc[Lab2 - Binding to Cloud Foundry Services]

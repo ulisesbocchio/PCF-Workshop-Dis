@@ -288,3 +288,7 @@ time                          event                 actor      description
 2015-08-11T08:54:22.00-0400   audit.app.map-route   admin
 2015-08-11T08:54:19.00-0400   audit.app.create      admin      instances: 1, memory: 512, state: STOPPED, environment_json: PRIVATE DATA HIDDEN
 ----
+
+
+== On too the next Lab!
+link:labs/lab5/README.adoc[Lab5 - Continuos Delivery with Jenkins]

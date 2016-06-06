@@ -163,3 +163,7 @@ image::blue-green.png[]
 SSH into your app container via 'cf ssh APP_NAME' 
 
 Reference: https://docs.pivotal.io/pivotalcf/customizing/diego-ssh/access-apps.html
+
+
+== On too the next Lab!
+link:labs/lab4/README.adoc[Lab4 - Monitoring your Application]
