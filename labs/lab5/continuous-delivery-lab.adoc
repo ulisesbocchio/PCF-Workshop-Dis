@@ -7,10 +7,8 @@ This lab will guide you through building a *BASIC* continuous delivery pipeline 
 == Initial Setup
 
 . Fork the Spring-Music repository. If you do not have a github account, you can use this repo
-+
----
-  https://github.com/cloudfoundry-samples/spring-music.git
----
+
+https://github.com/cloudfoundry-samples/spring-music.git
 
 . Edit the manifest.yml at the root of the forked spring-music repository. Change the *host* from ${random-word} to your initials. Jenkins does not like the special characters in the host field and will give an error.
   
