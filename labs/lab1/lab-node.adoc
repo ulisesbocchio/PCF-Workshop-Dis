@@ -237,5 +237,5 @@ $ cf stop <<app_name>>
 $ cf delete <<app_name>>
 ----
 
-== On too the next Lab!
+== On to the next Lab!
 link:labs/lab1/lab-dotnet.adoc[Lab1 - Push a DotNet Application]
