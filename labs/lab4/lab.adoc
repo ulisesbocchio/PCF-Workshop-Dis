@@ -236,4 +236,4 @@ time                          event                 actor      description
 
 
 == On to the next Lab!
-link:../../labs/lab5/README.adoc[Lab5 - Continuos Delivery with Jenkins]
+link:../../labs/lab5/README.adoc[Lab5 - Continuous Delivery with Jenkins]
