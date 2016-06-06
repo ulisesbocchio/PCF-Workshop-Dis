@@ -1,7 +1,7 @@
 ---
 applications:
-- name: scale-demo
+- name: ruby
   memory: 128M
   instances: 1
-  host: scale
+  host: ruby-${random-word}
   path: .
