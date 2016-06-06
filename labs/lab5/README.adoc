@@ -6,10 +6,12 @@ This lab will guide you through building a *BASIC* continuous delivery pipeline 
 
 == Initial Setup
 
-. Fork the Spring-Music repository. If you do not have a github account, you can skip this step and use my repository.
+. Fork the Spring-Music repository. If you do not have a github account, you can use this repo
++
+---
+  https://github.com/cloudfoundry-samples/spring-music.git
+---
 
-  link:https://github.com/cloudfoundry-samples/spring-music.git[Spring Music Application]
-  
 . Edit the manifest.yml at the root of the forked spring-music repository. Change the *host* from ${random-word} to your initials. Jenkins does not like the special characters in the host field and will give an error.
   
 . Login to your Jenkins instance at https://jenkins-0.system.pivotalpoc.hosts.disney.pvt with MyID link
@@ -23,6 +25,7 @@ This lab will guide you through building a *BASIC* continuous delivery pipeline 
 
 . Under *Source Code Management*, select *Git*, and supply your repository URL (e.g. `https://github.com/<YOUR_GIT_USERNAME>/spring-music`). Leave credentials as *none*.
 . If you weren't able to fork Spring-Music, just use https://github.com/cloudfoundry-samples/spring-music
+
 == Configure Gradle Build
 
 . Select *Add Build Step* and then *Invoke Gradle Script*.
