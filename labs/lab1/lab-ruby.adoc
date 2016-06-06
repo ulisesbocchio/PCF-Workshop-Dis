@@ -154,4 +154,4 @@ $ cf delete <<app_name>>
 ----
 
 == On to the next Lab!
-link:labs/lab1/lab-node.adoc[Lab1 - Push a NodeJS Application]
+link:lab-node.adoc[Lab1 - Push a NodeJS Application]

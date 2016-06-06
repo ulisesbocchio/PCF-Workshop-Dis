@@ -27,4 +27,4 @@ $ cf push
 ----
 
 == On to the next Lab!
-link:labs/lab2/README.adoc[Lab2 - Binding to Cloud Foundry Services]
+link:../../labs/lab2/README.adoc[Lab2 - Binding to Cloud Foundry Services]
