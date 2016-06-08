@@ -6,7 +6,13 @@
 
 . Navigate in a web browser to https://apps.system.pivotalpoc.hosts.disney.pvt
 
-. Click the MyID link and log-in using SSO.  The interface will show you do not have ORG permission. Take a screenshot.
+. Click the MyID link and log-in using SSO.
+
+image:login.png[]
+
+. The interface will show you do not have ORG permission. Take a screenshot.
+
+image:appsmanager.png[]
 
 . Send an email to the instructor requesting access to a developer space with a screenshot of the Apps Manager interface, be sure to include your BU (ABC, Parks, Studios, etc)
 
