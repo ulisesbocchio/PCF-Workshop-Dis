@@ -12,15 +12,15 @@ PCF Metrics helps developers better understand the health and performance of the
 
 For developers, there’s nothing to install or configure, just select an app and watch the data stream. 
 
-. PCF Metrics provides the following data on app health and performance
+_PCF Metrics provides the following data on app health and performance_
 * Container metrics: CPU, memory, and disk percentages (updated every 30 seconds)
 * HTTP metrics: requests per second, HTTP errors per second, and request latency (updated every second)
 * App events: create, update, start, stop, and crash (updated as they happen)
 
 image:metrics.png[]
 
-To get started, browse to the Metrics URL
-+
+*To get started, browse to the Metrics URL:*
+
 ----
 https://metrics.system.pivotalpoc.hosts.disney.pvt
 ----
